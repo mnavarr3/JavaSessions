@@ -1,11 +1,13 @@
 public class Person {
 
+
+    //object class
     //will not be including main because this will be combined with others that do have it
     //like using public available Java API
-    String name;
-    int age;
+    private String name;
+    private int age;
 
-    //constructor
+    //  the constructor
     public Person(String na, int age){
         name=na;
         this.age= age;
@@ -15,7 +17,7 @@ public class Person {
     //other constructor
     public Person(String na){
         name = na;
-        System.out.println("Created Person: " + name);
+        System.out.println("Created Person using other constructor: " + name);
     }
 
 
@@ -42,3 +44,9 @@ public class Person {
         return String.format("Name: " + name+ ", Age: "+ age);
     }
 }
+/* ^^^^^^^^^^^^^^^^
+   ^^^^^^^^^^^^^^^^
+   ^^^^^^^^^^^^^^^^
+   ^^^^^^^^^^^^^^^^
+   ^^^^^^^^^^^^^^^^
+*/
